@@ -1,2 +1,11 @@
-nums = [12,19,6,4,16,9,8,21,20,36]   
-puts"#{nums.tally}"
+ puts"Enter the string" 
+s=gets.chomp 
+w=s.gsub(/[!@\]\#,:.(){}?\\\;"\[\'%^`~$\/\%^&* ]/,"")   
+m=w.downcase 
+puts m  
+puts w
+if m == m.reverse 
+  puts"Valid Palindrome" 
+else 
+  puts"invalid palindrome" 
+end

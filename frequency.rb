@@ -15,4 +15,4 @@ b=[]
 a=str1.split(",")
 b=str2.split(",") 
 puts a.sort
-puts"#{b.sort}" 
+
