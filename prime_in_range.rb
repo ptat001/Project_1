@@ -18,4 +18,4 @@ num=gets.to_i
 for i in 1..num 
  prime(i) 
 end 
-puts"#{$a.max(3).join(",")}"
+puts"#{$a.join(",")}"

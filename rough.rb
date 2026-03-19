@@ -1,17 +1,10 @@
-puts"Enter the string" 
-s=gets.chomp 
-v=s.chars 
-z=v.tally 
-b=z.select{|v,k| k==1}  
-x=b.flatten  
-puts"#{x}" 
-if x.length==0 
-  
-else
-   for i in 0..v.length   
-     if v[i]==x[0]
-       puts i 
-     end 
-   end  
+puts"Enter the limit " 
+n=gets.to_i 
+a=0,b=1  
+v=[]
+for i in 1..n    
+  c.to_i=a+b
+  a=b 
+  b=c 
+  v.push(c)
 end
-
